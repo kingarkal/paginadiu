@@ -1,0 +1,81 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px;
+  border-style: solid;
+
+}
+
+.footerbusqueda{
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+.col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+.img {
+    width: 183px;
+    float: left;
+    height: 183px;
+}
+
+.mb-4, .my-4 {
+
+    height: 183px;
+}
+
+.w-20{
+  padding-top: 20px;
+  width: 20%;
+}
+.w-90{
+  width: 90%;
+}
+
+
+
+.espacio{
+  padding-top: 100px;
+}

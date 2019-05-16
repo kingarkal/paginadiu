@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="img/logo.png">
+
+    <title>OcioUGR</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/estilos/publicar.css" rel="stylesheet">
+  </head>
+
+  <body >
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="home.html">OcioUGR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="publicar.html">Publicar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promocion.html">Promocionarse</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Redes Sociales</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="https://Facebook.com/OcioUGR" >Facebook <img class="img" src="img/facebook.png" style="float:right;width:20px;height:20px;"> </a>
+                <a class="dropdown-item" href="https://Twitter.com/OcioUGR">Twitter <img class="img" src="img/twitter.png" style="float:right;width:20px;height:20px;"></a>
+                <a class="dropdown-item" href="https://Instagram.com/OcioUGR">Instagram <img class="img" src="img/instagram.png" style="float:right;width:20px;height:20px;"></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="login.html">Login</a>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <a class="btn btn-outline-success my-2 my-sm-0" href="busqueda.html" role="button">Search</a>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main" class="body-conectarse">
+
+      <form class="form-signin">
+
+      <h1 class="h3 mb-3 font-weight-normal">Conectate</h1>
+      <label for="inputEmail" class="sr-only">Correo</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
+      <label for="inputPassword" class="sr-only">Contraseña</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Recuerdame
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="conectado()">Conectarse</button>
+
+    </form>
+
+
+    </main>
+    <main role="main" class="body-registrarse">
+
+      <form class="form-signin">
+
+      <h1 class="h3 mb-3 font-weight-normal">Registrate</h1>
+      <label for="inputEmail" class="sr-only">Correo</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required="" autofocus="">
+      <label for="inputPassword" class="sr-only">Nombre</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Nombre" required="">
+      <label for="inputPassword" class="sr-only">Contraseña</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="" autofocus="">
+      <label for="inputPassword" class="sr-only">Intereses</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="Intereses" required="">
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Recuerdame
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="registrado()">Registrarse</button>
+
+    </form>
+
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Pagina prototipo &copy; OcioUGR</p>
+        <p><a href="../../">Contacta</a> con nosotros o tambien puedes <a href="../../getting-started/">conocernos aqui</a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/holder.min.js"></script>
+  </body>
+</html>

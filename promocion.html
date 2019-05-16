@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="img/logo.png">
+
+    <title>OcioUGR</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/estilos/publicar.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="home.html">OcioUGR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="publicar.html">Publicar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promocion.html">Promocionarse</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Redes Sociales</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="https://Facebook.com/OcioUGR" >Facebook <img class="img" src="img/facebook.png" style="float:right;width:20px;height:20px;"> </a>
+                <a class="dropdown-item" href="https://Twitter.com/OcioUGR">Twitter <img class="img" src="img/twitter.png" style="float:right;width:20px;height:20px;"></a>
+                <a class="dropdown-item" href="https://Instagram.com/OcioUGR">Instagram <img class="img" src="img/instagram.png" style="float:right;width:20px;height:20px;"></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="login.html">Login</a>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <a class="btn btn-outline-success my-2 my-sm-0" href="busqueda.html" role="button">Search</a>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div class="container promocionar">
+        <div class="py-5 text-center">
+          <h2>Promocionarse</h2>
+          <p class="lead">Aquí puedes ver los precios de las promociones y realizar la consulta</p>
+        </div>
+
+      <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Promociones</span>
+
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Primera promocion</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$5/mes</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Segunda promocion</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$10/mes</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Tercera promocion</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$20/mes</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Cuarta promocion</h6>
+                <small class="text-muted">Brief description</small>
+              </div>
+              <span class="text-muted">$40/mes</span>
+            </li>
+
+
+          </ul>
+
+
+        </div>
+        <div class="col-md-8 order-md-1">
+
+
+          <form class="needs-validation" novalidate="">
+            <h4 class="mb-3">Datos personales</h4>
+            <div class="mb-3">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="correo@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Nombre</label>
+              <input type="text" class="form-control" id="address"  required="">
+              <div class="invalid-feedback">
+                Please enter your shipping address.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Consulta</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit" onclick="consulta()">Realizar consulta</button>
+            <hr class="mb-4">
+
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Pagina prototipo &copy; OcioUGR</p>
+        <p><a href="../../">Contacta</a> con nosotros o tambien puedes <a href="../../getting-started/">conocernos aqui</a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/holder.min.js"></script>
+  </body>
+</html>
